@@ -142,6 +142,8 @@ body {
 
 .head{
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
     width: auto;
     height: 64px;
@@ -153,23 +155,24 @@ body {
     display: flex;
     font-size: 30px;
     gap: 1020px;
-    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .head .button1{
     color: #A7A7A7;
     border: 0;
+    margin-top: 15px;
 }
 
 .head .button2{
-    justify-content: flex-end;
-    border: 2p solid #ffffff;
+    border: 2px solid #ffffff;
     background: #ffffff;
-    border-radius: 8px;
-    padding: 10pxpx;
+    border-radius: 20px;
     font-weight: 700;
     justify-content: flex-end;
     padding: 5px;
+    padding: 10px 13px 13px 13px;
+    margin-left: 1100px;
 }
 
 .list{
