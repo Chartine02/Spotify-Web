@@ -1,0 +1,253 @@
+*{
+    background: rgba(0, 0, 0, 1);
+    font-family: inter, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.navbar{
+    background: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+    width: 420px;
+    height: 100px;
+    flex-shrink: 0;
+    padding-bottom: 20px;
+}
+
+.navbar i{
+    margin-top: 20px;
+    margin-left: -350px;
+    background: #121212;
+    bottom: 20px;
+
+}
+
+.add{
+    display: flex;
+    width: 405px;
+    height: 562px;
+    padding: 8px 8px 262px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    background: #121212;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.library{
+    display: flex;
+    flex-direction: row;
+    color: #A7A7A7;
+    align-items: center;
+    margin-top: 15px;
+    gap: 270px;
+    background: #121212;
+    
+}
+
+.library i{
+    background: #121212;
+}
+
+.create{
+    color: #ffffff;
+    width: 180px;
+    height: 134px;
+    padding: 16px 205.19px 16px 20px;
+    background: #242424;
+    border-radius: 8px;
+}
+
+.create h4{
+    background: #242424;
+    margin-top: 5px;
+}
+
+.create button{
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    color: #000;
+    padding: 6px 15.8px 6px 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.browse{
+    color: #ffffff;
+    width: 185px;
+    height: 160px;
+    padding: 16px 200.19px 16px 20px;
+    line-height: normal;
+    background: #242424;
+    border-radius: 8px;
+}
+
+.browse h4{
+    background: #242424;
+    margin-top: 5px;
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.browse button{
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    color: #000;
+    padding: 6px 15.8px 6px 16px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: space-around;
+
+}
+
+.link a{
+    color: #A7A7A7;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    background: #121212;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+}
+
+.first{
+    background: #121212;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.head{
+    display: flex;
+    color: #ffffff;
+    width: auto;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+
+.head i{
+    display: flex;
+    font-size: 30px;
+    gap: 1020px;
+    justify-content: space-between;
+}
+
+.head .button1{
+    color: #A7A7A7;
+    border: 0;
+}
+
+.head .button2{
+    justify-content: flex-end;
+    border: 2p solid #ffffff;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10pxpx;
+    font-weight: 700;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 1080px;
+    color: #ffffff;
+    background: #121212;
+}
+
+.list h3{
+    background: #121212;
+}
+
+.list a{
+    color: #A7A7A7;
+    text-decoration: none;
+    background: #121212;
+    margin-top: 20px;
+}
+
+.songs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background: #121212;
+    color: #A7A7A7;
+}
+
+.playlist{
+    border: 2px solid #121212;
+    background: linear-gradient(to bottom, #121212, #242424);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.songs h5{
+    color: #ffffff;
+    background: #1d1d1d;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    background: #121212;
+    gap: 1000px;
+}
+.books h3{
+    background: #121212;
+}
+
+.books a{
+    color: #A7A7A7;
+    text-decoration: none;
+    background: #121212;
+    margin-top: 20px;
+}
+
+.audio{
+    display: flex;
+    flex-direction: row;
+    background: #121212;
+    justify-content: space-between;
+    color: #A7A7A7;
+}
+
+.audio .audiobook{
+    border: 2px solid #1b1a1a;
+    background: #1b1a1a;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.audio h5{
+    color: #ffffff;
+    background: #1d1d1d;
+
+}
